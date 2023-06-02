@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet Accordeon</title>
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope&family=Montserrat&family=Roboto:wght@300&family=Trade+Winds&display=swap"
+      rel="stylesheet"
+    />
+    <!-- awesone -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- js -->
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="section-questions">
+        <div class="title">
+          <h2>questions générales</h2>
+        </div>
+        <!-- articles -->
+        <div class="questions">
+          <!-- article 1-->
+          <article class="question">
+            <div class="title-question">
+              <p>Quels Sont Les Différents Types De Données En JavaScript ?</p>
+              <button type="button" class="btn btn-question">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="text-question">
+              <p>
+                Les types de données JavaScript incluent : String, Number, Big
+                Int, Boolean, Undefined, Null, Symbol, Objects
+              </p>
+            </div>
+          </article>
+          <!-- end of article 1-->
+
+          <!-- article 2 -->
+          <article class="question">
+            <div class="title-question">
+              <p>Qu'est-ce qu'une fonction de rappel en JavaScript ?</p>
+              <button type="button" class="btn btn-question">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="text-question">
+              <p>
+                Une fonction de rappel est une fonction qui est passée en
+                argument à une autre fonction. Cette fonction est exécutée à
+                l'intérieur de la fonction à laquelle elle est passée pour
+                "rappeler" lorsqu'une action est terminée.
+              </p>
+            </div>
+          </article>
+          <!-- end of article 2-->
+
+          <!-- article 3-->
+          <article class="question">
+            <div class="title-question">
+              <p>À quoi sert le "DOM" en JavaScript</p>
+              <button type="button" class="btn btn-question">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="text-question">
+              <p>
+                DOM en JavaScript signifie
+                <strong>Document Object Model</strong> . C'est un moyen
+                d'interagir avec les éléments du document HTML via JavaScript.
+                Lorsque la page Web est chargée, le navigateur génère son modèle
+                d'objet de document, et il est construit comme une arborescence
+                d'objets. DOM permet de modifier dynamiquement les éléments HTML
+                et les propriétés CSS.
+              </p>
+            </div>
+          </article>
+          <!-- end of article 3-->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
